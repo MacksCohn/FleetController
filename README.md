@@ -12,4 +12,10 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 3.
-run ./start.sh from inside the directory
+> setup .env file with slack app information
+```bash
+SECRET=YOUR_APP_SECRET # should be alphanumeric
+TOKEN=YOUR_APP_TOKEN   # should have xoxb-numbers-numbers-letters
+SECRET=YOUR_APP_SECRET # should have xapp-num-numbers-alphanumeric
+```
+4. run ./start.sh while in the directory, or just source the venv and then run the script
